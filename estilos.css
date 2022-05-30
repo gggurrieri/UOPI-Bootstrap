@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rubik:wght@300&display=swap');
+*{
+    text-decoration: none;
+}
+
+body {
+    background-color: #0a141d;
+}
+/* INICIO MENU*/
+.logo{
+    width: 90px;
+}
+
+.navbar li{
+    margin-right: 1.5rem;
+}
+
+.navbar li:last-child{
+    background-color: #5873FF;
+    border: 2px solid #5873FF;
+    border-radius: .2rem;
+}
+
+.navbar li:last-child:hover{
+    background: transparent;
+    border: 2px solid #5873FF;
+    box-shadow:
+    0 0 50px #5873FF;
+    transform: translate(10px);
+    transition: 1.3s;
+}
+/* FIN MENU*/
+/* INICIO HOME PRINCIPAL*/
+.video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index: -1;
+    opacity: 0.3;
+    background-color: #000000;
+}
+
+.jumbotron{
+    background: none;
+    color: white;
+    font-family: "Rubik",sans-serif;
+    height: 900px;
+    text-shadow: 0.5px 0.5px 5px white;
+    margin-bottom: 0;
+    border-radius: 0;
+    padding-top: 0;
+    padding: 0;
+}
+
+.jumbotron h1{
+    font-size: 70px;
+    padding-top: 300px;
+    padding-left: 20px;
+}
+
+.btn{
+    background-color: #5873FF;
+    margin: 20px;
+    color: white;
+}
+
+.btn:hover{
+    transition: 0.5s;
+    box-shadow:
+    0 0 20px #5873FF;
+}
+
+.mouse{
+    width:25px;
+    height:50px;
+    border:2px solid #fff;
+    border-radius:20px;
+    display:flex;
+    margin-left: 50%;
+    margin-top: 200px;
+}
+.mouse-wheel{
+    display:block;
+    width:10px;
+    height:10px;
+    background-color:#fff;
+    border-radius:50%;
+    margin:auto;
+    animation: move-wheel 1s
+    linear infinite;
+}
+
+@keyframes move-wheel{
+    0%{
+        opacity:0;
+        transform:translateY(-1rem);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(1rem);
+    }
+}
+/* INICIO HOME PRINCIPAL*/
+
+/* INICIO MEDIO*/
+
+.transito{
+    height: 150px;
+    background-color: #242a45;
+    padding: 0;
+}
+
+.transito h2{
+    font-family: "Rubik",sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.medio{
+    width: 100%;
+    background-color: #242a45;
+}
+
+.row{
+    height: 400px;
+}
+.cleft{
+    padding: 10px;
+}
+
+.twitter-timeline{
+    border-radius: 10px;
+}
+
+.cright{
+    padding: 10px;
+}
+
+.waze{
+    border-radius: 10px;
+}
+
+/* FIN MEDIO*/
+
+/* INICIO FOOTER*/
+footer{
+    color: white;
+    font-family: "Rubik",sans-serif;
+    background-color: #0a141d;
+    
+}
+.box{
+    height: 200px;
+}
+.row h1{
+    font-size: 70px;
+    text-align: center;
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+    width: 50%;
+    margin-left: 0;
+}
+
+footer a{
+    font-size: 15px;
+    font-family: "rubik", sans-serif;
+    margin-bottom: 10px;   
+    color: white;
+}
+
+
+.mapa h4{
+    padding-top: 15px;
+}
+
+.items h4{
+    padding-top: 15px;
+}
+
+footer a:hover{
+    color: #5873FF;
+    text-decoration: none;
+}
+
+.items img{
+    margin: 10px;
+}
+
+.items h3{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Rubik",sans-serif;
+}
+
+.items input{
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.items .boton{
+    background-color: #5873FF;
+    height: 30px;
+    border-radius: 2px;
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.boton:hover{
+    transition: 0.5s;
+    box-shadow:
+    0 0 20px #5873FF;
+    color: #242a45;
+    width: 120px;
+}
+
+.footer-copyright{
+    background-color: #242a45;
+}
+
+.logo-descarga{
+    padding-left: 20px;
+}
+
+.boton:hover{
+    transition: 0.5s;
+    box-shadow:
+    0 0 20px #5873FF;
+}    
+/* FIN FOOTER*/
+
+/* INICIO Que es UOPI*/
+.inicio h2{
+    font-size: 70px;
+    padding: 70px;
+    font-family: "Rubik",sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.inicio p{
+    font-size: 30px;
+    padding: 50px;
+    font-family: "Rubik",sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.cajas{
+    width: 100%;
+    background-color: #051829;
+}
+
+.boxs{
+    border-bottom: 1px solid #242a45;
+    border-top: 1px solid #242a45;
+    height: 100%;
+}
+
+.cajas1 p{
+    width: 100%;
+    font-size: 25px;
+    font-family: "Rubik",sans-serif;
+    color: white;
+    padding-top: 20%;
+}
+
+.imgq {
+    width: 70%;
+    padding: 50px;
+}
+/* FIN Que es UOPI*/
+
+/* INICIO CONTACTO*/
+
+.content {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6.5em;
+    padding-bottom: 200px;
+    background-color: #051829;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logos {
+    font-family: "rubik",sans-serif;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.logos span {
+    color: #00fbff;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    color: white;
+    font-family: "rubik",sans-serif;
+
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(130, 130, 130);
+    border-bottom: 1px solid #00fbff;
+}
+
+.contact-form form button {
+    background: #6acbdf;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #5873FF;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-wrapper .contact-info{
+    padding: 0;
+    display: grid;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: linear-gradient(#0a141d,#5873FF) ;
+}
+
+
+.acajas{
+    width: 100%;
+    height: 100%;
+    padding-top:120px ;
+    background-color: #051829;
+}
+
+.aboxs{
+    height: 100%;
+}
+
+
+
+.imga img{
+    width: 100%;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.acajas img{
+    border-radius: 10px;
+}
+
+.acajas p{
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik",sans-serif;
+    padding: 50px;
+}
+
+.acajas h2{
+    color: white;
+    font-size: 30px;
+    font-family: "Rubik",sans-serif;
+    
+}
+
+.descarga{
+    width: 100%;
+    background-color: #051829;
+}
+
+.titulo-descarga h2{
+    padding-top: 100px;
+    color: white;
+    font-size: 50px;
+    font-family: "Rubik",sans-serif;
+}
+
+.cont-video{
+    padding: 40px;
+}
+
+.video1{
+    width: 100%;
+    border-radius: 10px;
+}
