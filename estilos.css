@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rubik:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 *{
     text-decoration: none;
 }
@@ -448,4 +451,34 @@ ul {
 
 .imagenuopi{
     background-color: #051829;
+}
+
+.gotoup{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #5873FF;
+    bottom: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.gotoup:hover{
+    color: white;
+    transition: linear 0.5s;
+    box-shadow:
+    0 0 20px #5873FF;
+    width: 60px;
+    height: 60px;
+    bottom: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    
 }
