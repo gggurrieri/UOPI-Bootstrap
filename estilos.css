@@ -47,7 +47,7 @@ body {
     background: none;
     color: white;
     font-family: "Rubik",sans-serif;
-    height: 900px;
+    height: 100%;
     text-shadow: 0.5px 0.5px 5px white;
     margin-bottom: 0;
     border-radius: 0;
@@ -56,8 +56,8 @@ body {
 }
 
 .jumbotron h1{
-    font-size: 70px;
-    padding-top: 300px;
+    font-size: 55px;
+    padding-top: 20%;
     padding-left: 20px;
 }
 
@@ -107,6 +107,9 @@ body {
 
 /* INICIO MEDIO*/
 
+
+
+
 .transito{
     height: 150px;
     background-color: #242a45;
@@ -154,9 +157,9 @@ footer{
     background-color: #0a141d;
     
 }
-.box{
+/*.box{
     height: 200px;
-}
+}*/
 .row h1{
     font-size: 70px;
     text-align: center;
@@ -229,6 +232,7 @@ footer a:hover{
     background-color: #242a45;
 }
 
+
 .logo-descarga{
     padding-left: 20px;
 }
@@ -238,11 +242,14 @@ footer a:hover{
     box-shadow:
     0 0 20px #5873FF;
 }    
+
+
+
 /* FIN FOOTER*/
 
 /* INICIO Que es UOPI*/
 .inicio h2{
-    font-size: 70px;
+    font-size: 55px;
     padding: 70px;
     font-family: "Rubik",sans-serif;
     text-align: center;
